@@ -1,0 +1,15 @@
+# Axiom xfwm theme by Rogier Koppejan.
+
+active_text_color=#616161
+active_text_shadow_color=#E4E4E4
+button_offset=0
+button_spacing=0
+title_shadow_active=true
+title_shadow_inactive=false
+full_width_title=true
+inactive_text_color=#A9A9A9
+maximized_offset=0
+show_app_icon=false
+title_horizontal_offset=0
+title_vertical_offset_active=2
+title_vertical_offset_inactive=2
