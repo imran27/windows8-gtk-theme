@@ -278,14 +278,14 @@ button.suggested-action:active, button.suggested-action:checked {
     border-width: 1px;
     border-style: solid;
     border-color: #1c5187;
-    background-image: linear-gradient(to bottom, #1c5187);
+    background-image: linear-gradient(to bottom, #000000, #1c5187);
     color:  @theme_fg_color; }
 button.suggested-action:disabled {
     border-width: 1px;
     border-style: solid;
     color: #7f7f7f;
     border-color: @borders;
-    background-image: linear-gradient(to bottom, #f1f1f1);
+    background-image: linear-gradient(to bottom, #000000, #f1f1f1);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 button.destructive-action {
@@ -304,14 +304,14 @@ button.destructive-action:active, button.destructive-action:checked {
     border-width: 1px;
     border-style: solid;
     border-color: #8e0b0b;
-    background-image: linear-gradient(to bottom, #8e0b0b);
+    background-image: linear-gradient(to bottom, #000000, #8e0b0b);
     color:  @theme_fg_color; }
 button.destructive-action:disabled {
     border-width: 1px;
     border-style: solid;
     color: #7f7f7f;
     border-color: @borders;
-    background-image: linear-gradient(to bottom,  @theme_fg_color);
+    background-image: linear-gradient(to bottom, #000000, @theme_fg_color);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 button.toggle {
@@ -604,7 +604,7 @@ headerbar.selection-mode button:active {
     border-width: 1px;
     border-style: solid;
     border-color: @theme_fg_color;
-    background-image: linear-gradient(to bottom, @theme_fg_color);
+    background-image: linear-gradient(to bottom, #000000, @theme_fg_color);
     color:  @theme_fg_color; }
 titlebar.selection-mode button:disabled,
 headerbar.selection-mode button:disabled {
@@ -612,7 +612,7 @@ headerbar.selection-mode button:disabled {
     border-style: solid;
     color: #7f7f7f;
     border-color: @borders;
-    background-image: linear-gradient(to bottom,  @theme_fg_color);
+    background-image: linear-gradient(to bottom,  #000000, @theme_fg_color);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 titlebar.selection-mode button.suggested-action,
@@ -634,7 +634,7 @@ headerbar.selection-mode button.suggested-action:active {
     border-width: 1px;
     border-style: solid;
     border-color: @borders;
-    background-image: linear-gradient(to bottom, #7f7f7f);
+    background-image: linear-gradient(to bottom, #000000, #7f7f7f);
     color:  @theme_fg_color; }
 titlebar.selection-mode button.suggested-action:disabled,
 headerbar.selection-mode button.suggested-action:disabled {
@@ -642,7 +642,7 @@ headerbar.selection-mode button.suggested-action:disabled {
     border-style: solid;
     color: #7f7f7f;
     border-color: @borders;
-    background-image: linear-gradient(to bottom,  @theme_fg_color);
+    background-image: linear-gradient(to bottom,  #000000, @theme_fg_color);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 .titlebar.selection-mode selection-menu,
@@ -1650,14 +1650,14 @@ messagedialog.csd dialog-action-area button.suggested-action:active {
     border-width: 1px;
     border-style: solid;
     border-color: #1c5187;
-    background-image: linear-gradient(to bottom, #1c5187);
+    background-image: linear-gradient(to bottom, #000000, #1c5187);
     color:  @theme_fg_color; }
 messagedialog.csd dialog-action-area button.suggested-action:disabled {
     border-width: 1px;
     border-style: solid;
     color: #7f7f7f;
     border-color: @borders;
-    background-image: linear-gradient(to bottom,  @theme_fg_color);
+    background-image: linear-gradient(to bottom,  #000000, @theme_fg_color);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 messagedialog.csd dialog-action-area button.destructive-action {
@@ -1676,14 +1676,14 @@ messagedialog.csd dialog-action-area button.destructive-action:active {
     border-width: 1px;
     border-style: solid;
     border-color: #8e0b0b;
-    background-image: linear-gradient(to bottom, #8e0b0b);
+    background-image: linear-gradient(to bottom, #000000, #8e0b0b);
     color:  @theme_fg_color; }
 message-dialog.csd dialog-action-area button.destructive-action:disabled {
     border-width: 1px;
     border-style: solid;
     color: #7f7f7f;
     border-color: @borders;
-    background-image: linear-gradient(to bottom,  @theme_fg_color);
+    background-image: linear-gradient(to bottom,  #000000, @theme_fg_color);
     text-shadow: none;
     -gtk-icon-shadow: none; }
 message-dialog.csd dialog-action-area button, message-dialog.csd dialog-action-area button:hover, 
